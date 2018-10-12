@@ -1,5 +1,5 @@
 // на странице https://adelaidetools.com.au/cordless-tools/cordless-grease-caulking-guns/makita-18v-caulking-gun-with-300mm-holder-skin-tool-only-dcg180z.html
-выбрать элементы кнопок  Add To Cart button, Get a Quote, View Our Store Locations, Price Match, Details, Additional Information
+// выбрать элементы кнопок  Add To Cart button, Get a Quote, View Our Store Locations, Price Match, Details, Additional Information
 
 document.querySelector('a.btn.btn-primary')  - order button (она первая, поэтому к ней легко добраться таким образом)
 
