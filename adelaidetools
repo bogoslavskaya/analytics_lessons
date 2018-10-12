@@ -1,4 +1,4 @@
-document.querySelector('a.btn.btn-primary')  - order button
+document.querySelector('a.btn.btn-primary')  - order button (она первая, поэтому к ней легко добраться таким образом)
 
 document.querySelectorAll('a.btn.btn-primary.blue_btn')   - показывает все кнопки с таким классом 
 //создаем переменную AllBlueBtn,чтобы можно было добраться до нужной кнопки:
