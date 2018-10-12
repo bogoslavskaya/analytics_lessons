@@ -1,0 +1,20 @@
+document.querySelector('a.btn.btn-primary')  - order button
+
+document.querySelectorAll('a.btn.btn-primary.blue_btn')   - показывает все кнопки с таким классом 
+//создаем переменную AllBlueBtn,чтобы можно было добраться до нужной кнопки:
+var allBlueBtn = document.querySelectorAll('a.btn.btn-primary.blue_btn');
+//вывести списком все три кнопки с таким классом:
+for(let i = 0; i < allBlueBtn.length; i++){
+    console.log(allBlueBtn[i]);
+}
+//вывести кнопку 'get a quote'
+console.log(allBlueBtn[0]);
+//вывести кнопку 'view our store locations'
+console.log(allBlueBtn[1]);
+//вывести кнопку 'Price Match'
+console.log(allBlueBtn[2]);
+
+document.querySelector('li.btn.btn-default.detailsbtn.active') - 'datails' button
+
+document.querySelector('li.btn.btn-default.detailsbtn1') - 'additional information' button
+
